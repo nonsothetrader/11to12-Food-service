@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body, .font-sans {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display, .font-serif {
+    font-family: 'Fraunces', Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+
+  body {
+    color: #1E140A;
+    background-color: #FAF4EB;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2E8D8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8C7B0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B198;
+}
+
+/* Lagos warm retro accent mesh & decorations */
+.bg-warm-mesh {
+  background-color: #FAF4EB;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(255, 85, 0, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(255, 85, 0, 0.05) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(245, 158, 11, 0.04) 0px, transparent 50%);
+}
+
